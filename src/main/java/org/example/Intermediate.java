@@ -7,10 +7,13 @@ public class Intermediate {
     public static void main(String[] args) {
         //Aufgabe 1
         String[] names = {"Eins", "Zwei", "Drei", "Vier", "Fünf", "Sechs", "Sieben", "Acht", "Neun", "Zehn"};
+
         //Aufgabe 2
         printNumberAsString(4);
+
         //Aufgabe 3
         printNumbersTo100();
+
         //Aufgabe 4
         String[] stringArray = new String[0];
         String[] stringNewArray = addNamesToArrayWithScanner(stringArray);

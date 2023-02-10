@@ -7,16 +7,20 @@ public class Expert {
         //Aufgabe 1
         String testString = "peter";
         System.out.println(reverseString(testString));
+
         //Aufgabe 2
         int[] intArray = {6, 2, 8, 3, 9, 6};
         Arrays.sort(intArray);
         System.out.println(Arrays.toString(intArray));
+
         //Aufgabe 3
         String stringToSeperate = "Hallo, wie ,geht, es, dir?";
         String[] seperatedStringArray = seperateStringToArray(stringToSeperate);
         System.out.println(Arrays.toString(seperatedStringArray));
+
         //Aufgabe 4
         System.out.println(getCheckSum(123));
+
         //Aufgabe 5
         System.out.println(getRomanianNumber(42));
     }
